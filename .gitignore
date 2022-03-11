@@ -5,6 +5,6 @@
 /Temp
 /UserSettings
 
-**/.vscode
+.vscode
 
-**/.csproj
+.csproj
