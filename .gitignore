@@ -4,7 +4,8 @@
 /Packages
 /Temp
 /UserSettings
+/.vscode
 
-.vscode
-
-.csproj
+**.DS_Store
+**.csproj
+**.sln
