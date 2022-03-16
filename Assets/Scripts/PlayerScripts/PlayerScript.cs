@@ -9,6 +9,8 @@ public class PlayerScript : MonoBehaviour
 
     Rigidbody2D playerRb;
 
+    private PlayerJumps playerJumps = new PlayerJumps();
+
     // Start is called before the first frame update
     void Start ()
     {
@@ -37,7 +39,8 @@ public class PlayerScript : MonoBehaviour
         {
             foreach (ContactPoint2D contactPoint in collision.contacts)
             {
-                Debug.Log(contactPoint.normal.y);
+                Debug.Log($"Contact Point: {contactPoint.normal.y}");
+                Debug.Log($"Number of Jumps: {playerJumps.Jumps}");
                 if (contactPoint.normal.y >= .9f)
                 {
                     isGrounded = true;

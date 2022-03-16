@@ -5,7 +5,10 @@
 /Temp
 /UserSettings
 /.vscode
+.vsconfig
 
 **.DS_Store
 **.csproj
+**.csproj.**
 **.sln
+**.suo
