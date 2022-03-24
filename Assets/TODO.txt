@@ -1,1 +1,27 @@
-﻿
+﻿-------{{{ MAIN GAME CODING TO IMPLEMENT }}}-------
+
+-- Create enemies to spawn
+
+-- Create each boss
+
+-- Create Element classes
+
+-- Add triggers where needed for spawns and dialog
+
+-- Set difficulty levels
+    -- Change final boss spawn areas dependent on difficulty
+    -- Add percentage of chance for boss to spawn early dependent on difficulty and death count
+
+-- Add random generation of enemy spawns and obstacles
+
+-- Add weapons (Maybe sword and bow)
+
+-- Add weapon rarity that are dropped by enemies or found
+
+-- Setup a JSON(Maybe?) to store what enemies can drop what and at what percentage(If not JSON, maybe a table with MySQL)
+
+
+
+-------{{{ SMALL FEATURES NEEDED TO BE ADDED LATER }}}-------
+
+-- Add multiple sprites for movement (Turning, Jumping, Walking)

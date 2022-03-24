@@ -1,0 +1,73 @@
+﻿[
+  {
+    "sword": [
+      {
+        "Weapon_Name": "Common Sword",
+        "Weapon_ID": "common_sword",
+        "Weapon_Type": "sword",
+        "Weapon_Rarity": "common",
+        "Weapon_Damage": 1
+      },
+
+      {
+        "Weapon_Name": "Rare Sword",
+        "Weapon_ID": "rare_sword",
+        "Weapon_Type": "sword",
+        "Weapon_Rarity": "rare",
+        "Weapon_Damage": 2
+      },
+
+      {
+        "Weapon_Name": "Epic Sword",
+        "Weapon_ID": "epic_sword",
+        "Weapon_Type": "sword",
+        "Weapon_Rarity": "epic",
+        "Weapon_Damage": 3
+      },
+
+      {
+        "Weapon_Name": "Legendary Sword",
+        "Weapon_ID": "legendary_sword",
+        "Weapon_Type": "sword",
+        "Weapon_Rarity": "legendary",
+        "Weapon_Damage": 4
+      }
+    ]
+  },
+
+  {
+    "bow": [
+      {
+        "Weapon_Name": "Common Bow",
+        "Weapon_ID": "common_bow",
+        "Weapon_Type": "bow",
+        "Weapon_Rarity": "common",
+        "Weapon_Damage": 1
+      },
+
+      {
+        "Weapon_Name": "Rare Bow",
+        "Weapon_ID": "rare_bow",
+        "Weapon_Type": "bow",
+        "Weapon_Rarity": "rare",
+        "Weapon_Damage": 2
+      },
+
+      {
+        "Weapon_Name": "Epic Bow",
+        "Weapon_ID": "epic_bow",
+        "Weapon_Type": "bow",
+        "Weapon_Rarity": "epic",
+        "Weapon_Damage": 3
+      },
+
+      {
+        "Weapon_Name": "Legendary Bow",
+        "Weapon_ID": "legendary_bow",
+        "Weapon_Type": "bow",
+        "Weapon_Rarity": "legendary",
+        "Weapon_Damage": 4
+      }
+    ]
+  }
+]

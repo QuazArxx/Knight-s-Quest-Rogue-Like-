@@ -7,6 +7,7 @@ TagManager:
   - StartButton
   - ExitButton
   - Ground
+  - SpawnTrigger
   layers:
   - Default
   - TransparentFX

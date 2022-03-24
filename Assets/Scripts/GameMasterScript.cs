@@ -18,4 +18,9 @@ public class GameMasterScript : MonoBehaviour
     {
         deathCounter.text = $"Deaths: {playerDeaths.Deaths}";
     }
+
+    void PlayerDied()
+    {
+        playerDeaths.Deaths++;
+    }
 }
