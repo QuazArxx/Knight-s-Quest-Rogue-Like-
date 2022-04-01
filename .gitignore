@@ -8,6 +8,8 @@
 /.vs
 .vsconfig
 
+/.git
+
 **.DS_Store
 **.csproj
 **.csproj.**
