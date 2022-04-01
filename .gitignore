@@ -5,6 +5,7 @@
 /Temp
 /UserSettings
 /.vscode
+/.vs
 .vsconfig
 
 **.DS_Store
