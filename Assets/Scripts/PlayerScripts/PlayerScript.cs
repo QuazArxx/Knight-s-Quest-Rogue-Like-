@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    float jumpHeight = 7f;
-    bool isGrounded;
-
-    Rigidbody2D playerRb;
+    private float jumpHeight = 7f;
+    private bool isGrounded;
 
     private PlayerJumps playerJumps = new PlayerJumps();
+
+    private GameMasterScript gameMaster;
+    private Rigidbody2D playerRb;
 
     // Start is called before the first frame update
     void Start ()
@@ -39,8 +40,6 @@ public class PlayerScript : MonoBehaviour
         {
             foreach (ContactPoint2D contactPoint in collision.contacts)
             {
-                Debug.Log($"Contact Point: {contactPoint.normal.y}");
-                Debug.Log($"Number of Jumps: {playerJumps.Jumps}");
                 if (contactPoint.normal.y >= .9f)
                 {
                     isGrounded = true;
@@ -54,6 +53,14 @@ public class PlayerScript : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = false;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "MainCamera")
+        {
+            gameMaster.PlayerDied();
         }
     }
 }

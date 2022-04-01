@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class WeaponStatScript : MonoBehaviour
 {
-    public Weapon weaponStats;
+    public Swords swordStats;
 
     private void Start()
     {
-        Debug.Log(weaponStats.attackDamage);
-        Debug.Log(weaponStats.weaponName);
+        Debug.Log(swordStats.attackDamage);
+        Debug.Log(swordStats.weaponName);
     }
 }

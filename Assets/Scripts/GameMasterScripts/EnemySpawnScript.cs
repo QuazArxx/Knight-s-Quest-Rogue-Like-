@@ -6,6 +6,7 @@ public class EnemySpawnScript : MonoBehaviour
 {
 
     private GameObject enemySpawnTrigger;
+    public GameObject[] prefab;
 
     private void Start()
     {
@@ -17,6 +18,10 @@ public class EnemySpawnScript : MonoBehaviour
         if (other.tag == "Player")
         {
             Debug.Log("Trigger was entered");
+            for (int x = 0; x < prefab.Length; x++)
+            {
+                Instantiate(prefab[x], new Vector2(1, 1), Quaternion.identity);
+            }
             enemySpawnTrigger.SetActive(false);
         }
     }

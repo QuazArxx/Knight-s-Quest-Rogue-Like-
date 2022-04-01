@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 031ef98a500fe43bd8f3d712d1f65d90, type: 3}
   m_Name: Common Sword
   m_EditorClassIdentifier: 
+  swords: []
   weaponName: Common Sword
   weaponID: common_sword
   weaponRarity: Common

@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class PlayerInventory
+{
+    private List<ItemDatabase> inventory;
+}
+
 public class PlayerDeaths
 {
     private int deathTotal;
